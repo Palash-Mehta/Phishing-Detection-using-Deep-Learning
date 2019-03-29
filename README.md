@@ -1,5 +1,6 @@
 # Phishing-Pharming_NeuralNetwork
 ==================================
+
 Deep Learning project to classify website as phishy, not phishy and suspicious.
 This is help for people looking forward to build an extension for detecting suspicious websites. For Pharming detection i.e. DNS/IP address based phishing detection we go for IP address comparison from local and reference DNS and webpage screenshots comparison using imgkit.
 
