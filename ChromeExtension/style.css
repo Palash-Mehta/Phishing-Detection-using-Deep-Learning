@@ -1,0 +1,52 @@
+.gate {
+  width: 300px;
+  margin: auto;
+  display: block;
+  position: relative;
+  top: 20px;
+  animation-name: gate-slam;
+  animation-duration: 1s;
+}
+.stonearchway {
+  width: 400px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin: auto;
+  display: block;
+}
+body {
+  background: #1a1a1a;
+  position: relative;
+  margin: 0;
+}
+
+@keyframes gate-slam {
+  0% {top: -1000px;}
+  100% {top: 20px;}
+}
+
+@keyframes text-appear {
+  0% {opacity: 0;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.forbiddenmessage {
+  color: white;
+  font-family: arial;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  animation-name: text-appear;
+  animation-duration: 2.5s;
+}
+
+h1, h3 {
+  margin: 0;
+}
